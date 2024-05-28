@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .gd{
+            background-color: lightblue;
+            padding: 10px;
+            display: grid;
+            grid-template-columns: 100px 90px 100px 100px;
+            grid-template-rows: 80px 80px 80px ;
+            grid-auto-rows: 150px;
+            gap:5px;
+            justify-content: center;
+        }
+        .child{
+            background-color: lightcyan;
+            font-size: 20px;
+            text-align: center;
+        }
+        .c10{
+            background-color: lightpink;
+            grid-column-start: 2;
+            grid-column-end: 5;
+
+        }
+        .c7{
+            background-color: blueviolet;
+            grid-column-start: 4;
+            grid-row-start: 2;
+            grid-row-end: 4;
+           
+        }
+        .c1{
+            background-color:gray;
+            grid-row-start: 1;
+            grid-row-end: 4;
+        }
+        .c5{
+            background-color: yellow;
+        }
+        .c6{
+            background-color: yellow;
+        }
+        .c4{
+            background-color: red;
+        }
+        .c8{
+            background-color: red;
+        }
+        
+        
+        .c3{
+            background-color: antiquewhite;
+        }
+        .c2{
+            grid-column-start: 2;
+            grid-column-end: 4;
+            grid-row-start: 1;
+            grid-row-end: 2;
+            background-color: lightseagreen;
+        }
+        .c9{
+            background-color: lightgoldenrodyellow;
+            grid-column-start: 3;
+            grid-column-end: 5;
+        }
+        
+        .c12{
+         grid-column-start: 1;
+         grid-column-end: 5;
+         background-color: lightsalmon;
+        }
+        
+    </style>
+</head>
+<body>
+    <h1>Layout 1</h1>
+    <div class="gd">
+        <div class="child c1">1</div>
+        <div class="child c2">2</div>
+        <div class="child c3">3</div>
+        <div class="child c4">4</div>
+        <div class="child c5">5</div>
+        <div class="child c6">6</div>
+        <div class="child c7">7</div>
+        <div class="child c8">8</div>
+    </div>
+</body>
+</html>
+<br>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .gd1{
+            background-color:white;
+            padding: 10px;
+            display: grid;
+            grid-template-columns: 100px 90px 100px 100px 70px 70px 20px;
+            grid-template-rows: 80px 80px 80px ;
+            grid-auto-rows: 150px;
+            gap:6px;
+            justify-content: center;
+        }
+        .childs{
+            background-color:yellowgreen;
+            font-size: 17px;
+            text-align: center;
+        }
+        .c11{
+            background-color: aqua;
+            grid-row-start: 1;
+        }
+        .c12{
+            grid-column-start: 2;
+            grid-column-end: 4;
+            background-color: red;
+        }
+        .c14{
+            grid-column-start: 5;
+            grid-row-start: 1;
+            grid-row-end: 4;
+            background-color: lightskyblue;
+        }
+        .c16{
+            background-color: blue;
+            grid-column-start: 6;
+            grid-row-start: 1;
+            grid-row-end: 4;
+
+        }
+        .c15{
+            grid-column-start: 7;
+            grid-row-start: 1;
+            grid-row-end: 4;
+            background-color: lightblue;
+
+        }
+        .c18{
+            grid-column-start: 2;
+            grid-column-end: 5;
+            grid-row-start: 2;
+            grid-row-end: 4;
+            background-color: orange;
+        }
+        .c17{
+            grid-row-start: 2;
+            background-color: brown;
+            grid-row-end: 4;
+        }
+       
+        
+    </style>
+</head>
+<br>
+<br>
+<body>
+    
+    <h1>Layout 2</h1>
+    <div class="gd1">
+        <div class="childs c11">1</div>
+        <div class="childs c12">2</div>
+        <div class="childs c13">3</div>
+        <div class="childs c14">4</div>
+        <div class="childs c15">5</div>
+        <div class="childs c16">6</div>
+        <div class="childs c17">7</div>
+        <div class="childs c18">8</div>
+        </div>
+</body>
+</html>
+<br>
+
+<br>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <style>
+        .d1{
+            background-color:blanchedalmond;
+            padding: 10px;
+            display: grid;
+            grid-template-columns: 100px 90px 100px 100px 70px 70px 20px;
+            grid-template-rows: 90px 80px 80px ;
+            grid-auto-rows: 150px;
+            gap:6px;
+            
+        }
+        .ch{
+            background-color:yellowgreen;
+            font-size: 17px;
+            text-align: center;
+        }
+        .ci11{
+            background-color: aqua;
+            grid-row-start: 1;
+        }
+        .ci12{
+            grid-column-start: 2;
+            grid-column-end: 3;
+            background-color: red;
+        }
+        .ci13{
+            grid-column-start: 3;
+            grid-row-start: 1;
+            
+            background-color: lightskyblue;
+        }
+        .ci16{
+            background-color: blue;
+            
+            grid-row-start: 3;
+            grid-row-end: 4;
+
+        }
+        .ci15{
+            grid-column-start: 7;
+            grid-row-start: 1;
+            grid-row-end: 4;
+            background-color: lightblue;
+
+        }
+        .ci18{
+            grid-column-start: 2;
+            grid-column-end: 4;
+            grid-row-start: 2;
+            grid-row-end: 4;
+            background-color: orange;
+        }
+        .ci17{
+            grid-row-start: 2;
+            background-color: brown;
+            grid-row-end: 3;
+        }
+       
+        
+    </style>
+</head>
+<br>
+<br>
+<body>
+
+    <h1>Layout 3</h1>
+    <div class="d1">
+        <div class="ch ci11">1</div>
+        <div class="ch ci12">2</div>
+        <div class="ch ci13">3</div>
+        
+        
+        <div class="ch ci16">6</div>
+        <div class="ch ci17">7</div>
+        <div class="ch ci18">8</div>
+        </div>
+</body>
+</html>
